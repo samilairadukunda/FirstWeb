@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.title {
+  color: green;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 0.5rem;
+  box-shadow: 0.25rem 0.25rem black;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+li {
+  margin: 0 0.5rem;
+}
+section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background-color: aquamarine;
+}
+.title1 {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.title-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.image-container {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.text-container {
+  margin-left: 2.5rem;
+}
+.p-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  flex-direction: row;
+}
+.p-container p {
+  margin: 0;
+}
+.text-container button {
+  padding: 0.8rem 3rem;
+  background-color: green;
+  color: white;
+  margin-top: 2.5rem;
+  border: 0;
+  border-radius: 0.25rem;
+}
